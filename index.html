@@ -140,6 +140,35 @@ input{
     border: none;
     color: rgba(72,144,244,255);
 }
+.gridcontainer1{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0.5px;
+    width: 34em;
+    height: 15em;
+    border: 1px solid rgb(189, 184, 184);
+    border-radius: 10px;
+    margin-left: 10em;
+    margin-top: -8em;
+}
+.gridcontainer2{
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 0.6px;
+    height: 15em;
+}
+.gridpic1 img{
+    position: absolute;
+    width: 16.8em;
+    height: 15em;
+    
+}
+.gridpic2 img,.gridpic3 img {
+    position: absolute;
+    width: 17em;
+    height: 7.2em;
+    
+}
     </style>
 </head>
 <body>
@@ -193,6 +222,16 @@ input{
 <button class="sec3button" type="button">Video</button>
     </div>
 
+</section>
+
+<section id="sec4">
+    <div class="gridcontainer1">
+<div class="gridpic1"><img src="http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRiULU6xp8Ls7qSNmipLUuaC9BMdy_8j_vvz6KfXTpoaRusojsRb0x2hBNdmeZrCwPzuNflBFvgz1a2yrk" alt="Ronaldo1"></div>
+<div class="gridcontainer2">
+<div class="gridpic2"><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/C._Ronaldo_-_Ballon_d%27Or_2014.jpg" alt="Ronaldo2"></div>
+<div class="gridpic3"><img src="https://www.realmadrid.com/img/vertical_380px/cristiano_550x650.jpg" alt="Ronaldo3"></div>
+</div>
+</div>
 </section>
     </div>
 </body>
