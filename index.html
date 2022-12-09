@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cristiano Ronald page</title>
     <style>
+        * {
+    box-sizing: content-box;
+    margin: 0;
+    font-family: Google Sans,arial,sans-serif-medium,sans-serif;
+}
+html, body, h1, input, select{
+    font-family: Arial, sans-serif;
+}
         #sec1{
             display: flex;
             justify-content: space-between;
@@ -83,13 +91,54 @@ input{
     cursor: pointer;
 }
 .button1{
-    padding: 0.5em 0.8em;
+    padding: 0.2em 0.8em;
     border: none;
     cursor: pointer;
     margin-bottom: 1.3em;
 }
-hr{
-    color: rgb(247, 240, 240);
+#sec3{
+    margin-left: 10em;
+    margin-right: 2em;
+    color: rgb(121, 117, 117);
+
+}
+.sec3div1{
+    display: flex;
+    gap: 0.7em;
+    flex-direction: row;
+    align-content: center;
+    margin:2em 2em 10em 0em ;
+}
+#sec3 .pre1Ronaldo1{
+    color: black;
+    font-size: 28px;
+    line-height: 36px;
+}
+.sec3Ronaldo{
+    color: black;
+    font-size: 28px;
+    
+}
+.sec3button1{
+    width: 7em;
+    height: 3em;
+    border-radius: 20px;
+    background-color:rgba(222,238,255,255);
+    border-color: rgb(114, 114, 212);
+    cursor: pointer;
+    color: rgba(72,144,244,255);
+    border: 0.8px solid rgba(15,107,240,255);
+   
+}
+.sec3button{
+    width: 5.5em;
+    height: 3em;
+    border-radius: 20px;
+    background-color: rgba(222,238,255,255);
+    border-color: rgba(15,107,240,255);
+    cursor: pointer;
+    border: none;
+    color: rgba(72,144,244,255);
 }
     </style>
 </head>
@@ -129,6 +178,21 @@ hr{
 <div>
     <button class="button1">Tools</button>
 </div>
+</section>
+
+<section id="sec3">
+    <p>About 289,000,000 results (0.64 seconds) </p>
+    <div class="sec3div1">
+    <nav class="pre1Ronaldo">
+        <b class="pre1Ronaldo1">Cristiano Ronaldo</b> <br>
+        Portuguese footballer <img class="sec2img1" src="img/more.svg" alt="more">
+    </nav>
+<button class="sec3button1" type="button">Overview</button>
+<button class="sec3button" type="button">News</button>
+<button class="sec3button" type="button">Stats</button>
+<button class="sec3button" type="button">Video</button>
+    </div>
+
 </section>
     </div>
 </body>
