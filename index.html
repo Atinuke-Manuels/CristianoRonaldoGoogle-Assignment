@@ -4,103 +4,132 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cristiano_Ronaldo_Google</title>
+    <title>Cristiano Ronald page</title>
     <style>
-        .Firstsec{
+        #sec1{
             display: flex;
+            justify-content: space-between;
+            padding: 15px 25px;
+            gap: 6em;
             align-items: center;
-            padding: 1em;
-            justify-content: space-between; 
-             width: 100%;
-            height: 100%;
         }
-        .google1{
+        .googleicon img{
             height: 30px;
-            aspect-ratio: auto 92 / 30;
             width: 92px;
-            padding-left: -1em;}
+            cursor: pointer;
+        }
 .input1{
-    border-radius: 30px;
-    font-size: 16px;
-    border: none;
-    background-color: transparent;
-    padding: 1em 3em 1em 1em;
-    width: 50em;
+    display: flex;
+    gap: 1.5em;
     position: relative;
-    margin-left: 2em;
-    outline: none;
-}
- .close1{
-    border-right: 1px solid rgb(233, 224, 224);
-    padding-right: 0.5em;
-}
-.nav1{
-    display: inline;
-  justify-content: space-between;
-    width: 70%;
-    position: absolute;
-    left: 40%;
     align-items: center;
-    padding-top: 0.8em;
-    
 }
-.close1,.voice1,.camera1,.search1{
-    width: 2.5%;
-    height: 2.5%;
-    padding-left: 0.8em;
+input{
+    width: 48em;
+    border-radius: 5em;
+    outline: none;
+    border: none;
+    padding: 1em;
 }
-summary{
-    list-style: none;
+.input1 img, .rightsec img{
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
 }
-.mypics{
-    width: 2em;
-height: 2em;
-   border-radius: 50%;
+#sec1 .inputimg{
+    position: absolute;
+    left: 30.9em;
+    display: flex;
+    gap: 1.2em;
 }
-.ritpic{
-width: 1.5em;
-height: 1.5em;
+.inputimg1{
+    border-right: 2px solid rgb(221, 213, 213);
 }
-.firstsecrit{
+.rightsec{
     display: flex;
     gap: 1em;
-  padding-left: 5em;
-  align-items: center;
 }
-    </style> 
+
+.rightsec .profile{
+   border-radius: 50%;
+   width: 2em;
+    height: 2em;
+}
+.sec1a{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+#sec2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5em 1.2em 1.5em;
+    margin: 1.3em 0em;
+    padding: 0em 31em 0em 8.5em;
+    border-bottom: 1px solid rgb(235, 225, 225);
+    align-content: center;
+}
+.sec2imgs{
+    display: flex;
+    justify-content: space-between;
+    width: 1.5em;
+    height: 1.5em;
+    gap: 0.4em;
+}
+.sec2img1{
+    width: 1.1em;
+    height: 1.1em;
+    padding-left: 1em;
+    cursor: pointer;
+}
+.button1{
+    padding: 0.5em 0.8em;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1.3em;
+}
+hr{
+    color: rgb(247, 240, 240);
+}
+    </style>
 </head>
 <body>
-    <div>
-        <section class="Firstsec">
-                    <Span><a href=""><img class="google1" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="google"></a></Span>
-            <Span>
-                <details>
-                <summary>
-                <input class="input1" type="text" placeholder="cristiano Ronaldo">
-                <nav class="nav1">
-                    <img class="close1" src="img/close_icon.svg" alt="close_icon" title="clear">
-                    <img class="voice1" src="img/voice search.png" alt="voice" title="search by voice">
-                    <img class="camera1" src="https://cdn-icons-png.flaticon.com/512/2956/2956596.png" alt="camera" title="search by image">
-                    <img class="search1" src="img/search_icon.svg" alt="search_icon" title="search">
-                </nav>
-            </summary>
-        </input>
-            <pre>
-                <p>
-                cristiano Ronaldo
-                Cristiano_Ronaldo_Google
-            </p>
-               </pre>
-            </details>
-            </Span>
-            <span class="firstsecrit">
-                <img class="ritpic" src="img/settings_icon.svg" alt="settings_icon">
-                <img class="ritpic" src="img/apps_icon.svg" alt="apps_icon">
-                <img class="mypics" src="img/My pic.jpeg" alt="mypics">
-            </span> 
-        </section>
-        
+    <div class="wrapper">
+<section id="sec1">
+<div class="sec1a">
+<div class="googleicon"><img src="img/googlelogo_color.png" alt="googlelogo" title="Go To Google home"></div>
+<div class="input1">
+    <input type="text" value="" placeholder="cristiano ronaldo">
+    <span class="inputimg">
+<img class="inputimg1" src="img/close_icon.svg" alt="close" title="clear">
+<img src="img/voice search.png" alt="voice" title="search by voice">
+<img src="img/photo_camera.svg" alt="camera" title="search by image">
+<img src="img/search_icon.svg" alt="search" title="search">
+</div>
+
+</span>
+</div>
+<div class="rightsec">
+    <img src="img/settings_icon.svg" alt="settings" title="Settings">
+    <img src="img/apps_icon.svg" alt="apps" title="Google apps">
+    <img class="profile" src="img/My pic.jpeg" alt="my profile" title="Google accounts Atinuke Manuels">
+</div>
+
+</section>
+
+
+<section id="sec2">
+<div class="sec2imgs">
+<img class="sec2img1" src="img/search_icon.svg" alt="search"> All
+<img class="sec2img1" src="img/news.png" alt="news"> News
+<img class="sec2img1" src="img/images.svg" alt="images"> Images
+<img class="sec2img1" src="img/video.svg" alt="Videos"> Videos
+<img class="sec2img1" src="img/more.svg" alt="more"> More
+</div>
+<div>
+    <button class="button1">Tools</button>
+</div>
+</section>
     </div>
-    
 </body>
 </html>
