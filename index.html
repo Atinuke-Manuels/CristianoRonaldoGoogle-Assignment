@@ -178,7 +178,7 @@ input{
 .gridcontainer3{
     width: 15em;
     height: 17em;
-    border: 0.5px solid black;
+    border: 0.1px solid grey;
     border-radius: 15px;
     margin-top: -8em;
 }
@@ -300,7 +300,8 @@ font-family: arial,sans-serif;
     line-height: 24px;
     font-size: 16px;
 }
-.panchor:hover, .anchor1:hover ,.globe:hover, .smallanchor:hover{
+.panchor:hover, .anchor1:hover ,.globe:hover, .smallanchor:hover
+,.stats:hover,.tablep:hover,.tablep1:hover{
     text-decoration: underline;
 }
 .dailypost{
@@ -329,7 +330,7 @@ margin-top: 20px;
     border-top: 1px solid rgb(231, 229, 229);
 }
 .mainsec2sub1img{
-    border: 0.1px black;
+    border: 0.1px grey;
     border-radius: 8px;
     margin-top: 20px;
     align-self: center;
@@ -388,7 +389,7 @@ margin-bottom: 8px;
 .secondbutton{
     display: flex;
     gap: 1.5em;
-    padding-bottom: 1px;
+    margin-bottom: 15px;
     border-bottom:1px solid rgb(216, 212, 212) ;
 }
 .feedback{
@@ -402,7 +403,36 @@ margin-bottom: 8px;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    width: 30%;
 }
+.table td{
+   border: none;
+   border-spacing: 0px;
+}
+.tablep{
+font-size: 14px;
+}
+.tablep1{
+    font-size: 14px;
+    line-height: 20px;
+    display: inline;
+}
+/* tr:not(:last-child) td {
+    padding-top: 1em;
+} */
+.tablep2{
+    font-size: 12.8px;
+}
+.tableheader{
+    font-size: 11.5px;
+    color: grey;
+    padding: 15px 95px 8px 0px;
+}
+
+table td{
+    padding-right: 95px;
+}
+
     </style>
 </head>
 <body>
@@ -577,11 +607,41 @@ Dr. Nélio Mendonça, Funchal, Portugal</a></p>
 <footer class="feedback">
     feedback
 </footer>
-            </div>
+                </div>
     <div class="stats">
         <p>Stats</p>
         <img src="img/rightarrow2.PNG" alt="rightarrow">
     </div>
+    <table class="table">
+<p class="tablep">Portugal</p>
+       <tr>
+        <th class="tableheader">League</th>
+        <th class="tableheader">Matches</th>
+        <th class="tableheader">Goals</th>
+       </tr>
+        <tr>
+            <td class="tablep1">World Cup <br> <p class="tablep2">2022</p></td>
+            <td class="tablep2">5</td>
+            <td class="tablep2">1</td>
+        </tr>
+        <tr>
+            <td class="tablep1">World Cup Qualifier <br> <p class="tablep2">2021-22</p></td>
+            <td class="tablep2">9</td>
+            <td class="tablep2">6</td>
+        </tr>
+        <tr>
+            <td class="tablep1">UEFA EURO <br> <p class="tablep2">2021</p></td>
+            <td class="tablep2">4</td>
+            <td class="tablep2">5</td>
+        </tr>
+        <tr>
+            <td class="tablep1">FIFA Confederations <br>  Cup <br><p class="tablep2">2017</p></td>
+            <td class="tablep2">4</td>
+            <td class="tablep2">2</td>
+        </tr> 
+       
+    </table>
+</section>
     </aside>
 
 
