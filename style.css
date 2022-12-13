@@ -364,7 +364,8 @@ p .anchor2 {
 .mainsec6a:hover,
 .relatedimgs p:hover,
 .mainsec10 .seemorebutton1:hover,
-.footer1:hover {
+.footer1:hover,
+.footer1num:hover {
     text-decoration: underline;
 }
 
@@ -751,6 +752,11 @@ padding-top: 6px;
    width: 30px;
    color: #4285f4;
    cursor: pointer;
+}
+.footer1num{
+    display: flex;
+    gap: 64px;
+    color:#4285f4 ;
 }
 .footer1{
     display: flex;
