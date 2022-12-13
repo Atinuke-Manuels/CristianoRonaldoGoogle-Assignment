@@ -38,8 +38,9 @@ select {
     width: 48em;
     border-radius: 5em;
     outline: none;
-    border: none;
+    /* border: none; */
     padding: 1em;
+    border: 0.2px solid rgb(243, 237, 237);
 }
 
 .input1 img,
