@@ -19,6 +19,12 @@ select {
     padding: 15px 25px;
     gap: 6em;
     align-items: center;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 50px;
+    z-index: 1;
 }
 
 .googleicon img {
@@ -59,7 +65,8 @@ select {
 }
 
 .inputimg1 {
-    border-right: 2px solid rgb(221, 213, 213);
+    border-right: 2px solid #d9dce0;
+    padding-right: 7px;
 }
 
 .rightsec {
@@ -85,7 +92,7 @@ select {
     padding: 0px 5em 1.2em 1.5em;
     margin: 1.3em 0em;
     padding: 0em 31em 0em 8.5em;
-    border-bottom: 1px solid rgb(235, 225, 225);
+    border-bottom: 1px solid #d9dce0;
     align-content: center;
 }
 
@@ -303,7 +310,7 @@ select {
     gap: 1.5em;
     align-content: center;
     margin-top: 24px;
-    border-top: 1px solid rgb(231, 229, 229);
+    border-top: 1px solid #d9dce0;
     padding-top: 10px;
 
 }
@@ -334,7 +341,7 @@ p .anchor2 {
 }
 
 .firstflex {
-    border-right: 1px solid rgb(231, 229, 229);
+    border-right: 1px solid #d9dce0;
 }
 
 .hours,
@@ -397,7 +404,7 @@ p .anchor2 {
     display: flex;
     gap: 3.8em;
     align-items: center;
-    border-top: 1px solid rgb(231, 229, 229);
+    border-top: 1px solid #d9dce0;
 }
 
 .mainsec2sub1img {
@@ -409,7 +416,7 @@ p .anchor2 {
 
 .rightaside {
     padding-left: 14px;
-    border-left: 1px solid rgb(240, 233, 233);
+    border-left: 1px solid #d9dce0;
     float: right;
     width: 30%;
     font-size: 20px;
@@ -425,7 +432,7 @@ p .anchor2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.5px solid rgb(216, 212, 212);
+    border: 0.5px solid #d9dce0;
     padding: 3px 4px 3px 12px;
     border-radius: 15px;
     width: 180px;
@@ -438,7 +445,7 @@ p .anchor2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.5px solid rgb(216, 212, 212);
+    border: 0.5px solid #d9dce0;
     padding: 3px 4px 3px 12px;
     border-radius: 15px;
     width: 230px;
@@ -469,7 +476,7 @@ p .anchor2 {
     display: flex;
     gap: 1.5em;
     margin-bottom: 15px;
-    border-bottom: 1px solid rgb(216, 212, 212);
+    border-bottom: 1px solid #d9dce0;
 }
 
 .feedback {
@@ -592,7 +599,7 @@ font-size: 18px;
     display: flex;
     gap: 38px;
     padding: 15px;
-    border-top:  1px solid rgb(216, 212, 212);
+    border-top:  1px solid #d9dce0;
     margin-top: 10px;
     align-items: center;
     margin-left: -10em;
@@ -621,7 +628,7 @@ border-radius: 10px;
 }
 .morenews{
 position: relative;
-border-top:  1px solid rgb(216, 212, 212);
+border-top:  1px solid #d9dce0;
 width: 60%;
 margin: 35px 0px;
 }
@@ -638,13 +645,13 @@ summary{
 display: flex;
 justify-content: space-between;
 padding: 10px 24px 10px 0px;
-border-bottom:1px solid rgb(216, 212, 212) ;
+border-bottom:1px solid #d9dce0 ;
 cursor: pointer;
 }
 .mainsec8 summary, .mainsec9 summary{
     display: flex;
     width: 148%;
-    border-bottom:1px solid rgb(216, 212, 212) ;
+    border-bottom:1px solid #d9dce0 ;
     margin-bottom: 15px;
 }
 .mainsec9 summary{
@@ -697,7 +704,7 @@ font-size: 14px;
     font-size: 20px;
     font-weight: 400px;
     margin: 30px 0px 5px 0px;
-    border-bottom:1px solid rgb(216, 212, 212) ;
+    border-bottom:1px solid #d9dce0 ;
     padding: 30px 0px 20px 0px;
 }
 .mainsec7more{
@@ -767,12 +774,12 @@ padding-top: 6px;
     color: grey;
 }
 .videosec1{
-    border-top: 1px solid rgb(226, 219, 219);
+    border-top: 1px solid #d9dce0;
     width: 95%;
     padding: 10px 0px;
     display: flex;
     gap: 25px;
-    border-bottom: 1px solid rgb(226, 219, 219) ;
+    border-bottom: 1px solid #d9dce0 ;
 }
 .videosec1 video,.videosec1 img{
     width: 140px;
@@ -783,7 +790,7 @@ padding-top: 6px;
 }
 .lastsec{
     Margin-top: 25px;
-    background-color:#dfe4e6 ;
+    background-color:#f2f2f2;
 }
 .lastsec1{
     display: flex;
@@ -794,10 +801,10 @@ padding-top: 6px;
     color: grey;
 }
 .lastsecdiv{
-    border-bottom: 1px solid rgb(199, 193, 193);
+    border-bottom: 1px solid #d9dce0;
 }
 .Nigeriafooter{
-    border-right:1px solid rgb(168, 162, 162)  ;
+    border-right:1px solid #d9dce0  ;
     padding-right: 8px;
     color: grey;
 }
