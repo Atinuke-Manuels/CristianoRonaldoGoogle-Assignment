@@ -500,10 +500,6 @@ p .anchor2 {
     line-height: 20px;
     display: inline;
 }
-
-/* tr:not(:last-child) td {
-padding-top: 1em;
-} */
 .tablep2 {
     font-size: 12.8px;
 }
@@ -531,10 +527,6 @@ table td {
 
 .profiles2 img {
     padding-left: 12.5px;
-}
-
-.profiles {
-    border-bottom: 1px solid rgb(216, 212, 212);
 }
 
 .profiles p {
@@ -788,4 +780,38 @@ padding-top: 6px;
 }
 .videosec1 p{
     line-height: 18px;
+}
+.lastsec{
+    Margin-top: 25px;
+    background-color:#dfe4e6 ;
+}
+.lastsec1{
+    display: flex;
+    gap: 15px;
+    padding: 15px 0px;
+    align-items: center;
+    padding-left: 155px;
+    color: grey;
+}
+.lastsecdiv{
+    border-bottom: 1px solid rgb(199, 193, 193);
+}
+.Nigeriafooter{
+    border-right:1px solid rgb(168, 162, 162)  ;
+    padding-right: 8px;
+    color: grey;
+}
+.updatefooter{
+    color:blue ;
+    cursor: pointer;
+    font-size: 14px;
+}
+.lastsec2{
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+    color: grey;
+    font-size: 14px;
+    padding: 15px 0px 25px 155px;
+    
 }
